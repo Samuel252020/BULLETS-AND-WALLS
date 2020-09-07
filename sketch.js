@@ -2,7 +2,7 @@ var bullet, speed, weight, wall, thickness;
 
 function setup() {
   createCanvas(1600, 400);
-  speed = random(223, 321);
+  speed = random(123, 221);
   weight = random(30, 52);
   bullet = createSprite(50, 200, 50, 20);
   bullet.velocityX = speed;
